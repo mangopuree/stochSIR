@@ -113,7 +113,7 @@ if __name__ == '__main__':
     plt.plot(xdata2, ydata2, 'o')
     
     plt.subplot(144)
-    plt.plot(t_array,a1,color="palegreen",linewidth=2)
+    plt.plot(t_array,a1,color="paleblue",linewidth=2)
     plt.plot(xModel, fitted3)
     plt.plot(xdata3, ydata3, 'o')
     
